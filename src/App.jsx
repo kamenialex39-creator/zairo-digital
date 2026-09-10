@@ -193,9 +193,11 @@ function App() {
 
           <div className="about-copy">
             <p>
-              Zairo Digital is a South African digital studio focused on
-              creating modern, high-performing websites for businesses ready
-              to take their online presence seriously.
+              Zairo Digital creates modern websites and digital experiences for businesses that
+              want to be seen, trusted, and remembered. We combine sharp design, thoughtful
+              development, and strategy to turn ideas into digital experiences that move 
+              businesses forward.
+
             </p>
 
             <p>
@@ -211,13 +213,13 @@ function App() {
               </div>
 
               <div>
-                <span>FOCUS</span>
-                <strong>DESIGN · DEVELOPMENT</strong>
+                <span>SPECIALTY</span>
+                <strong>WEBSITES · DIGITAL EXPERIENCES</strong>
               </div>
 
               <div>
                 <span>APPROACH</span>
-                <strong>STRATEGY · CREATIVITY</strong>
+                <strong>STRATEGY · DESIGN · DEVELOPMENT</strong>
               </div>
             </div>
           </div>
@@ -235,8 +237,8 @@ function App() {
           </h2>
 
           <p className="process-intro">
-            A simple, focused process designed to turn your vision into a
-            digital experience that works for your business.
+            From the first conversation to launch, we keep the process clear,
+            collaborative, and focused on creating a website that delivers results.
           </p>
         </div>
 
@@ -247,8 +249,8 @@ function App() {
             <div className="process-content">
               <h3>Discover</h3>
               <p>
-                We learn about your business, your goals, your audience, and
-                what you want your website to achieve.
+                We get clear on your business, audience, goals, and what your
+                website needs to achieve before we build anything.
               </p>
             </div>
 
@@ -261,8 +263,8 @@ function App() {
             <div className="process-content">
               <h3>Design</h3>
               <p>
-                We create the visual direction and user experience around your
-                brand, making every section intentional.
+                We shape the visual direction and user experience around your
+                brand, creating every section with purpose and clarity.
               </p>
             </div>
 
@@ -275,8 +277,8 @@ function App() {
             <div className="process-content">
               <h3>Build</h3>
               <p>
-                We turn the approved direction into a responsive, polished
-                website built to perform across devices.
+                We bring the design to life with clean, responsive development
+                that looks sharp and works seamlessly across every device.
               </p>
             </div>
 
@@ -289,8 +291,8 @@ function App() {
             <div className="process-content">
               <h3>Launch</h3>
               <p>
-                We test, refine, and prepare everything so your new website is
-                ready to make an impact.
+                We test, refine, and make sure everything is ready for your
+                website to launch confidently and make an impact.
               </p>
             </div>
 
@@ -310,8 +312,8 @@ function App() {
           </h2>
 
           <p className="contact-intro">
-            Tell us a little about what you're building, and let's create
-            something worth noticing.
+             Tell us what you’re building, what you need, and where you want
+             to go. We’ll take it from there.
           </p>
         </div>
 
@@ -330,7 +332,7 @@ function App() {
           </div>
 
           <a href="mailto:hello@zairo.co.za" className="contact-button">
-            Start a conversation
+            Start your project
             <span>↗</span>
           </a>
         </div>
@@ -378,7 +380,7 @@ function App() {
 
         <div className="footer-bottom">
           <span>© 2026 ZAIRO DIGITAL</span>
-          <span>DESIGN · DEVELOPMENT · STRATEGY</span>
+          <span>WEBSITES · DIGITAL EXPERIENCES · STRATEGY</span>
         </div>
       </footer>
     </main>
