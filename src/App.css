@@ -77,4 +77,47 @@
         rgba(0, 0, 0, 0.7) 100%
       );
   }
+}/* Keep all hero content above the video */
+.hero-content,
+.hero-mark,
+.hero-footer {
+  position: relative;
+  z-index: 2;
+}
+
+/* Make the hero content sit comfortably over the video */
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* Keep the decorative Z above the video */
+.hero-mark {
+  z-index: 2;
+}
+
+/* Keep the scroll indicator above the video */
+.hero-footer {
+  z-index: 2;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  .hero {
+    min-height: 100svh;
+  }
+
+  .hero-video {
+    object-position: center center;
+  }
+
+  .hero-overlay {
+    background:
+      linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.45) 0%,
+        rgba(0, 0, 0, 0.32) 45%,
+        rgba(0, 0, 0, 0.7) 100%
+      );
+  }
 }
