@@ -19,6 +19,19 @@ function App() {
       </nav>
 
       <section className="hero">
+        <video
+          className="hero-video"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+        >
+          <source src="/zairo-hero.mp4" type="video/mp4" />
+        </video>
+
+        <div className="hero-overlay"></div>
+
         <div className="hero-content">
           <p className="eyebrow">DIGITAL STUDIO · SOUTH AFRICA</p>
 
@@ -76,16 +89,16 @@ function App() {
           rel="noreferrer"
           className="project-card"
         >
-        <div className="project-image">
-          <img
-            src="/laura-screenshot.jpg"
-            alt="Laura Hair Salon website"
-          />
+          <div className="project-image">
+            <img
+              src="/laura-screenshot.jpg"
+              alt="Laura Hair Salon website"
+            />
 
-          <div className="project-overlay">
-            <span>VIEW PROJECT ↗</span>
+            <div className="project-overlay">
+              <span>VIEW PROJECT ↗</span>
+            </div>
           </div>
-         </div>
 
           <div className="project-info">
             <div>
@@ -193,11 +206,11 @@ function App() {
 
           <div className="about-copy">
             <p>
-              Zairo Digital creates modern websites and digital experiences for businesses that
-              want to be seen, trusted, and remembered. We combine sharp design, thoughtful
-              development, and strategy to turn ideas into digital experiences that move 
-              businesses forward.
-
+              Zairo Digital creates modern websites and digital experiences for
+              businesses that want to be seen, trusted, and remembered. We
+              combine sharp design, thoughtful development, and strategy to
+              turn ideas into digital experiences that move businesses
+              forward.
             </p>
 
             <p>
@@ -238,7 +251,8 @@ function App() {
 
           <p className="process-intro">
             From the first conversation to launch, we keep the process clear,
-            collaborative, and focused on creating a website that delivers results.
+            collaborative, and focused on creating a website that delivers
+            results.
           </p>
         </div>
 
@@ -312,8 +326,8 @@ function App() {
           </h2>
 
           <p className="contact-intro">
-             Tell us what you’re building, what you need, and where you want
-             to go. We’ll take it from there.
+            Tell us what you’re building, what you need, and where you want
+            to go. We’ll take it from there.
           </p>
         </div>
 
